@@ -1,10 +1,14 @@
+/**
+ * Create on {{date}}
+ */
+
 const path = require('path')
 const HOST = ''; //代理域名
 
 module.exports = {
-    title: '${dir}', // document.title
+    title: '{{dir}', // document.title
     output: {
-        path: path.resolve(process.cwd(), 'dist/${dir}'), //输出路径, 默认dist目录下同名文件
+        path: path.resolve(process.cwd(), 'dist/${{dir}}'), //输出路径, 默认dist目录下同名文件
         publicPath: './' //打包静态资源的路径，默认./
     },
     build: {
