@@ -22,5 +22,6 @@ module.exports = {
                 changeOrigin: true
             }
         }
-    }
+    },
+    useEslint: false //是否需要eslint校验
 }
