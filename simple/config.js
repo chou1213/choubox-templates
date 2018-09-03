@@ -23,5 +23,6 @@ module.exports = {
             }
         }
     },
+    open: false, //编译完成是否打开页面
     useEslint: false //是否需要eslint校验
 }
